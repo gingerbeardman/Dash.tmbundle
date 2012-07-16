@@ -18,8 +18,6 @@ fi
 	<string>word</string>
 	<key>input</key>
 	<string>selection</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
 	<key>name</key>
 	<string>Lookup in Dash</string>
 	<key>output</key>
