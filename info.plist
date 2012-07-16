@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Dash</string>
+	<key>ordering</key>
+	<array>
+		<string>6B2B7106-9C99-4EC2-AD6F-F6C6B1B7F9B6</string>
+	</array>
+	<key>uuid</key>
+	<string>EEC872CE-0C5F-465B-B99C-5ED4CD68F0DC</string>
+</dict>
+</plist>

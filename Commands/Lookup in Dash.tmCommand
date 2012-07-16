@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#
+# open Dash to look up current word
+# by Matt Sephton, http://www.gingerbeardman.com
+#
+if grep &lt;&lt;&lt;${TM_CURRENT_WORD:-!} -Esq '[a-zA-Z0-9_]+' 
+then
+	open 'dash://'$TM_CURRENT_WORD
+fi
+</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^h</string>
+	<key>name</key>
+	<string>Lookup in Dash</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.php,source.js</string>
+	<key>uuid</key>
+	<string>6B2B7106-9C99-4EC2-AD6F-F6C6B1B7F9B6</string>
+</dict>
+</plist>
