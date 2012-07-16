@@ -12,8 +12,8 @@ _Current word is either the current selection, or the word in which the cursor i
 
 ## Options
 
-You can add the Dash lookup to new languages by adding their scopes using the TextMate bundle editor.  
-By default the command is enabled for PHP and JavaScript.
+You can add Dash lookup to other languages by adding their scopes to the command using the TextMate bundle editor.  
+By default the command is enabled only for PHP and JavaScript.
 
 ### Internals
 
